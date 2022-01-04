@@ -58,9 +58,9 @@ while True:
         pyautogui.FAILSAFE = False
         pyautogui.moveTo(int(x / 2), int(y / 2))
         time.sleep(0.15)
-        pyautogui.keyDown('esc')
+        pyautogui.click(clicks=2)
         time.sleep(0.15)
-        # pyautogui.click(clicks=2)
+        pyautogui.keyDown('esc')
         time.sleep(0.15)
         pyautogui.moveTo(x, y)
         time.sleep(0.15)
